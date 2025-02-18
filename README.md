@@ -1,11 +1,11 @@
-Бот, который сообщает погоду в указанном вами городе.
+![image](https://github.com/user-attachments/assets/1b90fa79-8c4e-44eb-a615-73919a87388a)С помощью ИИ этот бот не просто сообщает погоду, но и обязательно прокомментирует её!
 
 Функционал очень прост:
 
   Вводите комманду /start, пишите город. При желании можно поменять город:
 
 Скрины для примера:
-![image](https://github.com/user-attachments/assets/808f249c-2fa0-4af2-ab4e-55b11bdf8119)
-![image](https://github.com/user-attachments/assets/22e97d05-e08f-48ed-967b-341261b356b1)
+![image](https://github.com/user-attachments/assets/217790c6-e66a-477d-ae2f-659b9f8af83d)
+![image](https://github.com/user-attachments/assets/84c70ddb-135b-4a66-bc6d-ea4871474c61)
 
-Библиотеки: requests, aiogram 3
+Библиотеки: requests, aiogram 3, mistralai
