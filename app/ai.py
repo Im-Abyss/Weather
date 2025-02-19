@@ -1,6 +1,6 @@
 from mistralai import Mistral
 
-from config import AI_TOKEN
+from config import AI_TOKEN, PROMT
 
 
 async def main(content):
@@ -20,7 +20,7 @@ async def main(content):
         messages=[
              {
                   "role": "user",
-                  "content": f"Напиши вот эту погоду и дай рекомендацию или пожелания к ней: {content}. То есть, например, 'Погода в городе Москва сейчас -3.53°C, пасмурно. Я рекомендую вам [то, что ты рекомендуешь], и желаю [то, что ты желаешь]. Там где я поставил квадратные скобки, тебе их ставить не надо. И ещё, добавь смайлики пожалуйста для настроения",
+                  "content": PROMT,
               },
         ],
     )
