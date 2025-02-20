@@ -37,7 +37,7 @@ async def weather(message: Message, state: FSMContext):
         temperature = data['main']['temp']
         weather_description = data['weather'][0]['description']
         content = f'Погода в городе {city_name} сейчас {temperature}°C, {weather_description}.'
-        result = await main(content=content)
+        result = await main()
 
         # Теперь редактируем сохраненное сообщение
         await checking_message.edit_text(result, reply_markup=change_city)

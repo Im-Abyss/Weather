@@ -3,7 +3,7 @@ from mistralai import Mistral
 from config import AI_TOKEN, PROMT
 
 
-async def main(content):
+async def main():
 
     '''
     Эта функция, которая позволяет боту
